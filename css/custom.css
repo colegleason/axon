@@ -1,0 +1,20 @@
+.link {
+    fill: black;
+    stroke: black;
+}
+
+.cursor {
+    fill: none;
+    stroke: black;
+}
+
+.node {
+    fill: white;
+    stroke: black;
+}
+
+.node.active {
+    fill: black;
+    stroke: black;
+}
+
