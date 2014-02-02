@@ -15,8 +15,13 @@ body {
     top: 100px;
 }
 
+.activator {
+    fill: none;
+    stroke: red;
+}
+
 .link {
-    fill: black;
+    fill:none;
     stroke: black;
 }
 
@@ -25,8 +30,8 @@ body {
     stroke: black;
 }
 
-.activator {
-    fill: none;
+.pulsar {
+    fill: white;
     stroke: red;
 }
 
@@ -40,8 +45,11 @@ body {
     stroke: black;
 }
 
+.selected {
+    fill: red;
+}
+
 .node.active {
     fill: black;
-    stroke: black;
 }
 
