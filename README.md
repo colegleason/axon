@@ -1,4 +1,4 @@
-mcculloch-pitts
-===============
+Axon
+====
 
-A McCulloch and Pitts neural network simulator in D3.js.
+A neural network playground in D3.js.
