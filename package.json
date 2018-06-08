@@ -1,0 +1,28 @@
+{
+  "name": "axon",
+  "version": "1.0.0",
+  "description": "A neural network playground in D3.js.",
+  "scripts": {
+    "build": "rimraf static && browserify js/index.js -o static/js/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colegleason/axon.git"
+  },
+  "keywords": [
+    "mcculloch",
+    "pitts",
+    "d3"
+  ],
+  "author": "colegleason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colegleason/axon/issues"
+  },
+  "homepage": "https://github.com/colegleason/axon#readme",
+  "dependencies": {
+    "browserify": "^16.1.1",
+    "rimraf": "^2.6.2",
+    "underscore": "^1.8.3"
+  }
+}
